@@ -1,7 +1,7 @@
 slave:
   datasource:
 #   数据源基本配置
-    username: taibai
+    username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.13.130:3306/test
@@ -21,7 +21,7 @@ slave:
 master:
   datasource:
 #   数据源基本配置
-    username: taibai
+    username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.13.129:3306/test

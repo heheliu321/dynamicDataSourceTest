@@ -33,8 +33,8 @@ public class DruidConfig {
 
 
     @Bean
-    public PlatformTransactionManager txManager(DataSource dbFactoryBean) {
-        return new DataSourceTransactionManager(dbFactoryBean);
+    public PlatformTransactionManager txManager(DynamicDataSource dynamicDataSource) {
+        return new DataSourceTransactionManager(dynamicDataSource);
     }
 
 
